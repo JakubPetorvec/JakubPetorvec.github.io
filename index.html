@@ -1,94 +1,154 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Lama brings home chores, shopping lists, plans and a personal values vault into one calm, shared space.">
-<title>Lama — one calm space for home, shopping, plans and your vault</title><link rel="stylesheet" href="/style.css"></head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Lama keeps chores, the shopping list, shared plans and a vault of your own values in one account. Use it alone or share a space with the people you live with.">
+<meta name="theme-color" content="#FBF9F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#24212B" media="(prefers-color-scheme: dark)">
+<title>Lama: chores, shopping, plans and your vault in one app</title>
+<link rel="icon" href="/assets/lama-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
 <body>
-<header class="shell nav">
-  <a class="brand" href="/" aria-label="Lama, home">
-    <img class="brand-mark" src="/assets/lama-icon.svg" alt="" width="34" height="34">
-    <span>Lama</span>
-  </a>
-  <nav class="navlinks" aria-label="Sections">
-    <a href="#modules">Modules</a>
-    <a href="#how">How it works</a>
-    <a href="#status">Status</a>
-  </nav>
-  <a class="button" href="#modules">See the modules</a>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="shell nav">
+    <a class="brand" href="/" aria-label="Lama, home">
+      <img class="brand-mark" src="/assets/lama-icon.svg" alt="" width="34" height="34">
+      <span>Lama</span>
+    </a>
+    <nav class="navlinks" aria-label="Sections">
+      <a href="#modules">Modules</a>
+      <a href="#how">How it works</a>
+      <a href="#status">Status</a>
+      <a href="/support/">Support</a>
+    </nav>
+  </div>
 </header>
 
-<main>
+<main id="main">
   <section class="shell hero">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">Pre-release</p>
-        <h1>One calm little llama for everyday life.</h1>
-        <p class="lede">Lama gathers home chores, shopping lists, shared plans and a personal values vault into a single warm, uncluttered space — for you, or for a household sharing it together.</p>
-        <div class="actions">
-          <a class="button" href="#modules">Explore the modules</a>
-          <a class="button button-quiet" href="#how">How it works</a>
-        </div>
-        <p class="fine">Lama is still pre-release. There is no app-store link or public launch yet.</p>
+    <div class="hero-copy">
+      <p class="badge"><span class="badge-dot" aria-hidden="true"></span>In development</p>
+      <h1>Chores, groceries, plans and your own numbers.</h1>
+      <p class="lede">Lama keeps all four in one account. Use it on your own, or open a space with the people you live with.</p>
+      <div class="actions">
+        <a class="button" href="#modules">See the modules</a>
+        <a class="button button-quiet" href="#how">How it works</a>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <img src="/assets/lama-home-painted.png" alt="" class="hero-llama hero-llama-home">
-        <img src="/assets/lama-shopping-app-v3.png" alt="" class="hero-llama hero-llama-shopping">
-        <img src="/assets/lama-plans-painted.png" alt="" class="hero-llama hero-llama-plans">
-        <img src="/assets/lama-vault-app-v3.png" alt="" class="hero-llama hero-llama-vault">
-      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="tile tile-home"><img src="/assets/lama-home-painted.png" alt="" width="220" height="220"></div>
+      <div class="tile tile-shopping"><img src="/assets/lama-shopping-app-v3.png" alt="" width="220" height="220"></div>
+      <div class="tile tile-plans"><img src="/assets/lama-plans-painted.png" alt="" width="220" height="220"></div>
+      <div class="tile tile-vault"><img src="/assets/lama-vault-app-v3.png" alt="" width="220" height="220"></div>
     </div>
   </section>
 
   <section id="modules" class="shell section">
-    <p class="eyebrow">Four modules, one space</p>
-    <h2>Everything lives in its own pastel corner.</h2>
-    <p class="section-lede">Each module keeps its own colour and its own llama, so you always know where you are.</p>
-    <div class="grid4">
-      <article class="card card-home">
-        <img src="/assets/lama-home-painted.png" alt="Illustration of the Lama home llama holding a broom" width="120" height="120">
-        <h3>Home</h3>
-        <p>Split chores, mark them done, and run a shared cleanup together.</p>
+    <div class="section-head">
+      <p class="eyebrow">The modules</p>
+      <h2>Four modules, one account.</h2>
+      <p class="section-lede">Every module has its own colour and its own llama, so you always know where you are.</p>
+    </div>
+    <div class="modules">
+      <article class="module module-home">
+        <div class="module-band">
+          <img src="/assets/lama-home-painted.png" alt="The Lama home llama sitting on a house with a broom" width="200" height="200" loading="lazy">
+        </div>
+        <div class="module-body">
+          <h3>Home</h3>
+          <p>Split the chores, tick them off, and run a bigger cleanup together.</p>
+        </div>
       </article>
-      <article class="card card-shopping">
-        <img src="/assets/lama-shopping-app-v3.png" alt="Illustration of the Lama shopping llama with a full cart" width="120" height="120">
-        <h3>Shopping</h3>
-        <p>Keep a running list of what your household still needs to buy.</p>
+      <article class="module module-shopping">
+        <div class="module-band">
+          <img src="/assets/lama-shopping-app-v3.png" alt="The Lama shopping llama riding in a full cart" width="200" height="200" loading="lazy">
+        </div>
+        <div class="module-body">
+          <h3>Shopping</h3>
+          <p>One list of what the household still needs, open to everyone in the space.</p>
+        </div>
       </article>
-      <article class="card card-plans">
-        <img src="/assets/lama-plans-painted.png" alt="Illustration of the Lama plans llama holding a pencil" width="120" height="120">
-        <h3>Plans</h3>
-        <p>Collect ideas, agree on dates, and get ready for things together.</p>
+      <article class="module module-plans">
+        <div class="module-band">
+          <img src="/assets/lama-plans-painted.png" alt="The Lama plans llama holding a pencil next to a calendar" width="200" height="200" loading="lazy">
+        </div>
+        <div class="module-body">
+          <h3>Plans</h3>
+          <p>Collect ideas, settle on a date, and get ready for it together.</p>
+        </div>
       </article>
-      <article class="card card-vault">
-        <img src="/assets/lama-vault-app-v3.png" alt="Illustration of the Lama vault llama with a safe" width="120" height="120">
-        <h3>Vault</h3>
-        <p>Track your own values and goals over time, entered by you. Vault does not move money and is not a bank, lender or investment service.</p>
+      <article class="module module-vault">
+        <div class="module-band">
+          <img src="/assets/lama-vault-app-v3.png" alt="The Lama vault llama leaning on a safe" width="200" height="200" loading="lazy">
+        </div>
+        <div class="module-body">
+          <h3>Vault</h3>
+          <p>Follow values and goals you type in yourself. Vault does not move money and is not a bank, a lender or an investment service.</p>
+        </div>
       </article>
     </div>
   </section>
 
-  <section id="how" class="shell section section-soft">
-    <p class="eyebrow">How it works</p>
-    <h2>Your space, shared on your terms.</h2>
-    <div class="loop">
-      <div class="loop-step"><b>Solo or shared</b><p>Use Lama alone, or share a space with the people you live with.</p></div>
-      <div class="loop-step"><b>Pick a module</b><p>Open Home, Shopping, Plans or Vault — each one stays focused on its own job.</p></div>
-      <div class="loop-step"><b>Add what matters</b><p>Chores, list items, plans or values — everything you enter stays in your space.</p></div>
-      <div class="loop-step"><b>Stay in sync</b><p>Share updates with the people who have access to each module.</p></div>
+  <section id="how" class="section section-soft">
+    <div class="shell">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>Your space, shared on your terms.</h2>
+      </div>
+      <ol class="loop" role="list">
+        <li class="loop-step">
+          <b>Solo or shared</b>
+          <p>Use Lama on your own, or open a space with the people you live with.</p>
+        </li>
+        <li class="loop-step">
+          <b>Pick a module</b>
+          <p>Home, Shopping, Plans and Vault each stay focused on one job.</p>
+        </li>
+        <li class="loop-step">
+          <b>Add what matters</b>
+          <p>Chores, items, plans, values. Everything you enter stays in your space.</p>
+        </li>
+        <li class="loop-step">
+          <b>Stay in sync</b>
+          <p>Everyone with access to a module sees the same list you do.</p>
+        </li>
+      </ol>
     </div>
   </section>
 
   <section id="status" class="shell section">
-    <div class="status-card">
-      <p class="eyebrow">Where things stand</p>
-      <p>Lama is being built and is not yet available in app stores. This page describes the modules as designed; features and screens may still change before release.</p>
+    <div class="status">
+      <p class="badge"><span class="badge-dot" aria-hidden="true"></span>Where things stand</p>
+      <p class="status-text">Lama is being built. It is not in the app stores yet and there is no launch date to share. This page describes the modules as they are designed, and screens can still change before release.</p>
+      <p class="status-note">Questions are welcome in the meantime. <a href="/support/">Support and contact</a>.</p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="shell footer-inner">
-    <a class="brand" href="/"><img class="brand-mark" src="/assets/lama-icon.svg" alt="" width="24" height="24"><span>Lama</span></a>
-    <small>This informational site runs on GitHub Pages, uses no analytics, advertising scripts or first-party cookies, and includes no external fonts or scripts. Technical visit data is processed by GitHub under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.</small>
+    <div class="footer-top">
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/assets/lama-icon.svg" alt="" width="26" height="26">
+        <span>Lama</span>
+      </a>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#modules">Modules</a>
+        <a href="#how">How it works</a>
+        <a href="#status">Status</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+    <p class="footer-operator">
+      Operated by Jakub Jan Petrovec, Czech business ID (ICO) 29999171.
+      Contact: <a href="mailto:jakubpetrovec321@gmail.com">jakubpetrovec321@gmail.com</a>
+    </p>
+    <small>This informational site runs on GitHub Pages. It uses no analytics, no advertising scripts, no first-party cookies and no external fonts or scripts. Technical visit data is processed by GitHub under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.</small>
   </div>
 </footer>
-</body></html>
+</body>
+</html>
