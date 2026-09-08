@@ -126,7 +126,7 @@ p { margin: 0 0 12px; }
   margin-inline: auto;
 }
 
-section[id] { scroll-margin-top: calc(var(--bar) + 12px); }
+section[id], article[id] { scroll-margin-top: calc(var(--bar) + 12px); }
 
 /* ------------------------------------------------------------------ top bar */
 
@@ -302,8 +302,8 @@ h3 {
 }
 .tile img { height: 100%; object-fit: contain; width: 100%; }
 .tile-home { background: var(--home); border-color: var(--home-line); }
-.tile-shopping { background: var(--shopping); border-color: var(--shopping-line); margin-top: 22px; }
-.tile-plans { background: var(--plans); border-color: var(--plans-line); margin-top: -22px; }
+.tile-shopping { background: var(--shopping); border-color: var(--shopping-line); }
+.tile-plans { background: var(--plans); border-color: var(--plans-line); }
 .tile-vault { background: var(--vault); border-color: var(--vault-line); }
 
 /* --------------------------------------------------------------- sections */
